@@ -180,7 +180,7 @@ public class PackageFull {
 			  driver.findElement(Payment.ExpiryYear).sendKeys("26");
 			  driver.findElement(Payment.Cvv).sendKeys("123");
 			  driver.findElement(Payment.Submit).click() ;
-			  driver.findElement(Payment.Success); 
+			  driver.findElement(Payment.Success).click(); 
 			  Thread.sleep(2000);
 			 
 		  }
